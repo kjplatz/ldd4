@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/klog.h> // for klog
 #include <errno.h>
 
 /* A script to change the console log level. It takes as a command
